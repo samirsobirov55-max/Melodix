@@ -176,7 +176,7 @@ const PlayerContent: FC<PlayerContentProps> = ({song, songUrl}) => {
                     aria-label="Duration"
                 >
                     <RadixSlider.Track className="bg-neutral-600 relative grow rounded-full h-[7px]">
-                        <RadixSlider.Range className={cn("absolute bg-green-600 rounded-full h-full", isPlaying && "animate-pulse")}/>
+                        <RadixSlider.Range className={cn("absolute bg-violet-600 rounded-full h-full", isPlaying && "animate-pulse")}/>
                     </RadixSlider.Track>
                     <RadixSlider.Thumb
                         className="block w-[14px] h-[14px] bg-white rounded-full hover:w-[20px] hover:h-[20px] focus:outline-0 focus:shadow"
@@ -194,7 +194,7 @@ const PlayerContent: FC<PlayerContentProps> = ({song, songUrl}) => {
                         <MediaItem data={song}/>
                         <LikeButton songId={song.id}/>
                         <AiOutlineSync onClick={toggleRepeat} className="cursor-pointer flex md:hidden"
-                                       color={isRepeat ? '#22c55e' : 'rgb(163 163 163)'} size={30}
+                                       color={isRepeat ? '#a855f7' : 'rgb(163 163 163)'} size={30}
                         />
                     </div>
                 </div>
@@ -220,7 +220,7 @@ const PlayerContent: FC<PlayerContentProps> = ({song, songUrl}) => {
 
                 <div className="hidden md:flex w-full justify-end items-center gap-x-6 pr-2">
                     <AiOutlineSync onClick={toggleRepeat} className="cursor-pointer"
-                                   color={isRepeat ? '#22c55e' : 'rgb(163 163 163)'} size={25}
+                                   color={isRepeat ? '#a855f7' : 'rgb(163 163 163)'} size={25}
                     />
                     <div className="flex items-center gap-x-2 w-[120px]">
                         <VolumeIcon onClick={toggleMute} className="cursor-pointer" size={34}/>

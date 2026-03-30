@@ -15,8 +15,8 @@ import {NextFont} from "next/dist/compiled/@next/font";
 const figtree: NextFont = Figtree({subsets: ['latin']});
 
 export const metadata: Metadata = {
-    title: 'Spotify',
-    description: 'Spotify listen to music',
+    title: 'Melodix',
+    description: 'Melodix — your music, your world',
     icons: {
         icon: '/favicon.ico',
     },

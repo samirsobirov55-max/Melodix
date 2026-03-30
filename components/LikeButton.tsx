@@ -88,7 +88,7 @@ const LikeButton: FC<LikeButtonProps> = ({ songId }) => {
                 transition
             "
         >
-            <Icon color={isLiked ? '#22c55e' : 'white'} size={25} />
+            <Icon color={isLiked ? '#a855f7' : 'white'} size={25} />
         </button>
     );
 };

@@ -7,8 +7,8 @@ import getSongsByUserId from "@/actions/getSongsByUserId";
 import {Song, UserDetails} from "@/types";
 
 export const metadata: Metadata = {
-    title: 'Spotify: profile',
-    description: 'Spotify profile',
+    title: 'Melodix: profile',
+    description: 'Melodix profile',
 }
 
 const AccountPage: NextPage = async () => {

@@ -34,9 +34,9 @@ input[type="range"] {
     margin-right: 15px;
     width: 100%;
     height: 7px;
-    background-color: #7ee8fa;
+    background-color: #a855f7;
     border-radius: 5px;
-    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    background-image: linear-gradient(315deg, #a855f7 0%, #7c3aed 74%);
     background-repeat: no-repeat;
 }
 
@@ -45,7 +45,7 @@ input[type="range"]::-webkit-slider-thumb {
     height: 15px;
     width: 15px;
     border-radius: 50%;
-    background-color: rgb(34, 197, 94);
+    background-color: rgb(168, 85, 247);
     cursor: ew-resize;
     box-shadow: 0 0 2px 0 #555;
     transition: background .2s ease-in-out;

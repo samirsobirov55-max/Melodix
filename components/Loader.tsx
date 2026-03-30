@@ -6,7 +6,7 @@ import {FC} from "react";
 const Loading: FC = () => {
     return (
         <Box className="h-full flex items-center justify-center">
-            <BounceLoader color="#22c55e" size={40}/>
+            <BounceLoader color="#a855f7" size={40}/>
         </Box>
     );
 }
